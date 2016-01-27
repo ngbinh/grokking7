@@ -2,9 +2,11 @@
     "index.md",
     "who.md",
     "what.md",
-    "background.md",
-    "background-team.md",
-    "background-anduin-mission.md",
+    [
+      "background.md",
+      "background-team.md",
+      "background-anduin-mission.md"
+    ],
     "how-do-we-get-here.md",
     "full-stack-scala-at-anduin.md",
     "the-good.md",
