@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Full Stack Scala at Anduin Transactions",
+    "packageVersion": "0.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ngbinh",
+    "githubRepository": "grokking7"
+  }
+}
