@@ -1,3 +1,4 @@
 ##  Who
 
-This is a new Markdown slide
+* Binh Nguyen
+* Trung Nguyen
