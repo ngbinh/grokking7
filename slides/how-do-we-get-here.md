@@ -1,3 +1,8 @@
 ##  How do we get here?
 
-This is a new Markdown slide
+* Started with *normal* Web stack
+  * Scala/Akka backend
+  * (Pretty modern) JavaScript/TypeScript frontend
+    * AngularJS
+    * Gulp build
+    * Yeomen to automatically generates component and tests
