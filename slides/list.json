@@ -3,12 +3,23 @@
     "who.md",
     "what.md",
     [
-      "background.md",
-      "background-team.md",
-      "background-anduin-mission.md"
+        "background-anduin-mission.md",
+        "background.md",
+        "background-team.md"
     ],
-    "how-do-we-get-here.md",
-    "full-stack-scala-at-anduin.md",
+    [
+        "how-do-we-get-here.md",
+        "how-do-we-get-here-2.md",
+        "scala-js-is-scala.md",
+        "scala-js-2.md",
+        "scala-js-interpolates-with-javascript.md",
+        "scala-js-is-scala-3.md"
+    ],
+    [
+        "full-stack-scala-at-anduin.md",
+        "scala-anduin-2.md",
+        "scala-anduin-3.md"
+    ],
     "the-good.md",
     "the-bad.md",
     "lesson-learnt.md",

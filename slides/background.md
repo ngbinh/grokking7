@@ -1,11 +1,15 @@
-##  Background
+##  Background - the team
 
-This is a new Markdown slide
+As of Feb 2016
+  * 3 product designers, 3 ops, 3 product/legal
+  * 7 engineers, 3 engineering interns
+    * 1 college drop-out
+    * 1 drop-out then back and get out with a degree
+    * 4 PhDs from top American Universities
+    * 3 IOI medal holders, more than enough to form a team in ACM World Final
+    * 1 US National Merit Scholar
+    * 1 Fulbright Fellow
+    * 3 Vietnam Education Foundation fellows
 
 Note:
-Ask the audiences about their background first:
-  * Who here know Scala?
-  * Who here use Scala profesionally? What for?
-  * Who here know about Scala.js? Who know about Li Haoyi?
-
-Tell the audiences who are we and what is the challenge we trying to solve
+Talk about the team first as it is the most important factor.

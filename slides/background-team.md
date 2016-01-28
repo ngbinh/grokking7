@@ -1,6 +1,10 @@
 ##  Background - team
 
-This is a new Markdown slide
+Almost nobody come in with Scala/functional programming experience!
 
 Note:
-This is the chance to talk about the team. Should definitely plug something to interest potential candidate
+Ask the audience:
+  * Anyone here heard about Scala?
+  * Anyone here know and use Scala professionally?
+  * Anyone here use Haskell professionally?
+  * OCalm?
