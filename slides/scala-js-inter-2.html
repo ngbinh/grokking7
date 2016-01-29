@@ -1,0 +1,18 @@
+<h2> Moment.js facade </h2>
+
+<section>
+  <pre>
+    <code data-trim data-noescape>
+trait Date extends js.Object {
+  def format(pattern: String): String = js.native
+}
+
+@JSName("moment")
+object Moment extends js.Object {
+  def apply(): Date = js.native
+}
+
+console.log(Moment().format("MMMM Do YYYY"))
+    </code>
+  </pre>
+</section>
