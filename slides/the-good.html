@@ -1,0 +1,40 @@
+
+<section>
+  <h4>Benefits on the team and product</h4>
+  <ol>
+    <li class="fragment">We can keep our code base quality very high</li>
+    <li class="fragment">While keeping the indoc time for new engineers short</li>
+    <li class="fragment">We can move very fast in a very discipline way</li>
+  </ol>
+</section>
+
+<section>
+  <h4>Technological advantages</h4>
+    <ol>
+      <li class="fragment">Model using category theories: Applicative, Monad, Free structures,...</li>
+      <li class="fragment">Typeclasses to safely decouple implementations</li>
+      <li class="fragment">One of the best ecosystem with smart people and powerful libraries</li>
+    </ol>
+</section>
+
+<section>
+<pre>
+  <code data-trim data-noescape>
+    // N + 1 selects problem
+getAllUsernames = do
+  userIds <- getAllUserIds
+  for userIds $ \userId -> do
+    getUsernameById userId
+  </code>
+</pre>
+  <p class="fragment">
+    one data fetch for <code>getAllUserIds</code>, then another for each call to
+      <code>getUsernameById</code> => <code>N + 1</code> calls
+  </p>
+  <p class="fragment">
+    <code>FreeMonad implementation will perform exactly two data fetches: one to
+      <code>getAllUserIds</code> and one with all the <code>getUsernameById</code>
+        calls batched together.
+  </p>
+
+</section>

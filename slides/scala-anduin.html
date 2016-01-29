@@ -1,0 +1,63 @@
+<section>
+  <h2>Anduin technology stack</h2>
+    <ol>
+      <li class="fragment">Scala on both backend and frontend</li>
+      <li class="fragment">Terraform, Ansible on Amazon AWS</li>
+      <li class="fragment">Jenkins and gocd builds</li>
+      <li class="fragment">Docker engine in local development and tests</li>
+      <li class="fragment">Kubernettes for deployment</li>
+    </ol>
+</section>
+
+<section>
+  <h2>Anduin Scala code base</h2>
+
+  <ol>
+    <li class="fragment">Actor based backend on Akka</li>
+    <li class="fragment">Akka http server</li>
+    <li class="fragment">Scala.js React client</li>
+    <li class="fragment">Scalaz, Monocle, Shapeless, Cats</li>
+  </ol>
+
+</section>
+
+<section>
+  <h2>A fairly large Scala code base</h2>
+  <img data-src="../resources/slocs.png">
+</section>
+
+<section>
+  <h2>Designers write Scala code</h2>
+  <img data-src="../resources/designer_code_1.jpg">
+</section>
+
+<section>
+  <h2>Designers write Scala code</h2>
+  <img data-src="../resources/designer_code_2.jpg">
+</section>
+
+<section>
+  <h2>Type-safe REST using Autowire </h2>
+
+  <section>
+    <pre>
+      <code data-trim data-noescape>
+  // shared interface
+  trait Api {
+    def add(x: Int, y: Int, z: Int): Int
+  }
+  // Server
+  object Server extends autowire.Server...
+  object ApiImpl extends Api
+    def add(x: Int, y: Int, z: Int) = x + y + z
+  }
+  // client-side callsite
+  object Client extends autowire.Client...
+  Client[Api].add(1, 2, 3).call(): Future[Int]
+  //         |    |             |
+  //         |    |             The T is pickled and wrapped in a Future[T]
+  //         |    The arguments to that method are pickled automatically
+  //         Call a method on the `Api` trait
+      </code>
+    </pre>
+</section>
