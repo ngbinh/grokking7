@@ -32,7 +32,7 @@ getAllUsernames = do
       <code>getUsernameById</code> => <code>N + 1</code> calls
   </p>
   <p class="fragment">
-    <code>FreeMonad implementation will perform exactly two data fetches: one to
+    <code>FreeMonad</code> implementation will perform exactly two data fetches: one to
       <code>getAllUserIds</code> and one with all the <code>getUsernameById</code>
         calls batched together.
   </p>
