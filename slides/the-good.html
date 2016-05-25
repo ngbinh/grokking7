@@ -3,8 +3,8 @@
   <h2>Benefits on the team and product</h2>
   <ol>
     <li class="fragment">We can keep our code base quality very high</li>
-    <li class="fragment">While keeping the indoc time for new engineers short</li>
-    <li class="fragment">We can move very fast in a very discipline way</li>
+    <li class="fragment">While keeping the ramp up time for new engineers short</li>
+    <li class="fragment">We can move very fast without breaking a lot of things</li>
   </ol>
 </section>
 
@@ -32,7 +32,7 @@ getAllUsernames = do
       <code>getUsernameById</code> => <code>N + 1</code> calls
   </p>
   <p class="fragment">
-    <code>FreeMonad implementation will perform exactly two data fetches: one to
+    <code>FreeMonad</code> implementation will perform exactly two data fetches: one to
       <code>getAllUserIds</code> and one with all the <code>getUsernameById</code>
         calls batched together.
   </p>
